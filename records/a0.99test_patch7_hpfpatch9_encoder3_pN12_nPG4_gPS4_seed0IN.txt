@@ -1,0 +1,17 @@
+model and training settings: {'gpu_id': '0', 'dataset': 'IN', 'VALIDATION_SPLIT': 0.99, 'seed': 0, 'learning_rate': 0.00055, 'gamma': 0.9, 'weight_decay': 0, 'ITER': 2, 'epoches': 10, 'batch_size': 256, 'patch': 7, 'hpf_patch': 9, 'pixelNum': 12, 'n_perGroup': 4, 'encoder_num': 3, 'groupPoolScale': 4}
+OAs for each iteration are:[0.8211855212545616, 0.7900187395206628]
+AAs for each iteration are:[array([0.4443, 0.777 , 0.81  , 0.7563, 0.816 , 0.9404, 1.    , 0.9937,
+       1.    , 0.6704, 0.864 , 0.5674, 0.762 , 0.9688, 0.644 , 0.9893],
+      dtype=float16), array([0.2222, 0.7275, 0.4849, 0.769 , 0.7676, 0.9614, 0.963 , 0.8096,
+       0.8423, 0.7007, 0.876 , 0.5537, 0.926 , 0.9097, 0.9478, 1.    ],
+      dtype=float16)]
+KAPPAs for each iteration are:[0.7959102594370208, 0.7596778220742472]
+
+AA_mean for each class are: [0.333251953125, 0.752197265625, 0.6474609375, 0.7626953125, 0.791748046875, 0.950927734375, 0.9814453125, 0.901611328125, 0.921142578125, 0.685546875, 0.869873046875, 0.560546875, 0.843994140625, 0.939208984375, 0.7958984375, 0.99462890625]
+mean_OA ¡À std_OA is: 0.8056021303876122 ¡À 0.015583390866949376
+mean_AA ¡À std_AA is: 0.796 ¡À 0.1847
+mean_KAPPA ¡À std_KAPPA is: 0.777794040755634 ¡À 0.018116218681386798
+
+Total Training time is: 31.837886810302734
+Total Testing time is: 1.1817412376403809
+
